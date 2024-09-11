@@ -1,0 +1,8 @@
+[build]
+  publish = "build"  # Folder output build dari aplikasi kamu
+  command = "npm run build"  # Perintah untuk membangun aplikasi
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
